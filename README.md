@@ -21,7 +21,7 @@ It prints up to 1024 bytes of server response (if available), with
 non-printable bytes replaced by dots ('.').
 
 
-# USAGE
+## USAGE
 
 Syntax:
     tcpscan [-p port_range] target
@@ -32,7 +32,7 @@ Examples:
     tcpscan www.cs.stonybrook.edu      (scans default port list)
 
 
-# EXAMPLE INPUT & OUTPUT
+### EXAMPLE INPUT & OUTPUT
 
 Example command:
     tcpscan -p 80 www.stonybrook.edu
