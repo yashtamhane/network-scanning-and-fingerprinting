@@ -22,7 +22,8 @@ Syntax:
 Examples:  
  ```tcpscan -p 80 www.example.com  
     tcpscan -p 20-25 192.168.1.10  
-    tcpscan www.cs.stonybrook.edu      (scans default port list)```  
+    tcpscan www.cs.stonybrook.edu      (scans default port list)
+```  
 
 
 ### EXAMPLE INPUT & OUTPUT
