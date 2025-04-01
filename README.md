@@ -2,7 +2,7 @@
 
 ## OVERVIEW
 
-tcpscan is a TCP connect scanner and service fingerprinting tool. It scans a list of TCP ports on a given target (IP address or hostname) and attempts to determine what type of service is running on each open port. It uses both plain TCP and TLS-based probes to classify services into one of six types:  
+**tcpscan** is a TCP connect scanner and service fingerprinting tool. It scans a list of TCP ports on a given target (IP address or hostname) and attempts to determine what type of service is running on each open port. It uses both plain TCP and TLS-based probes to classify services into one of six types:  
 
   (1) TCP server-initiated  
   (2) TLS server-initiated  
@@ -20,15 +20,15 @@ Syntax:
     tcpscan [-p port_range] target  
 
 Examples:  
-    tcpscan -p 80 www.example.com  
+ ```tcpscan -p 80 www.example.com  
     tcpscan -p 20-25 192.168.1.10  
-    tcpscan www.cs.stonybrook.edu      (scans default port list)  
+    tcpscan www.cs.stonybrook.edu      (scans default port list)```  
 
 
 ### EXAMPLE INPUT & OUTPUT
 
 Example command:  
-    tcpscan -p 80 www.stonybrook.edu  
+`tcpscan -p 80 www.stonybrook.edu`  
 
 Example output:  
 Target IP: 104.18.32.123  
