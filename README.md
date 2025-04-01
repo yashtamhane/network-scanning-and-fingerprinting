@@ -56,12 +56,13 @@ Response:
   Server: cloudflare
   CF-RAY: 9293aafdab3c43cf-EWR
   
-  <html>
+  ```<html>
   <head><title>400 Bad Request</title></head>
   <body>
+  <center><h1>400 Bad Request</h1></center>
   <hr><center>cloudflare</center>
   </body>
-  </html>
+  </html>```
 
 In this example, port 80 was found open, and the server responded to a 
 client-initiated GET request. tcpscan correctly identified it as:
